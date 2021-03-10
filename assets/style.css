@@ -54,6 +54,8 @@ header {
   justify-content: space-between;
   padding: 40px 15%;
   background-color: var(--primary-background);
+  
+  transition: padding var(--transition-time);
 }
 
 header * {
@@ -70,6 +72,8 @@ header nav {
   font-weight: 600;
   font-size: 1.7em;
   margin: auto 10px;
+  
+  transition: font-size var(--transition-time), margin var(--transition-time);
 }
 
 .navlink, .links {
@@ -88,6 +92,8 @@ main {
   padding: 40px;
   margin: auto;
   background-color: #ffffff0a;
+
+  transition: max-width var(--transition-time), padding var(--transition-time);
 }
 
 /* Section configurations */
@@ -211,15 +217,42 @@ footer {
 @media (max-width: 768px) {
   header {
     filter: invert();
+    transition: padding var(--transition-time);
+    padding: 30px 20px;
   }
+
+  .navlink {
+    transition: font-size var(--transition-time), margin var(--transition-time);
+    font-size: 1.3em;
+  }
+
 }
 
-@media (min-width: 769px) and (max-width: 1280px) {
+@media (max-width: 1280px) {
   header {
-    filter: invert();
+    transition: padding var(--transition-time);
+    padding: 40px 28px;
+    justify-content: space-around;
   }
 
-  footer {
-    filter: invert();
+  .navlink {
+    transition: font-size var(--transition-time), margin var(--transition-time);
+    font-weight: 600;
+    font-size: 1.5em;
+    margin: auto 5px;
+  }
+
+  main {
+    max-width: 90%;
+    padding: 40px 15px;
+    transition: max-width var(--transition-time), padding var(--transition-time);
+  }
+
+  .content-header {
+    width: 8%;
+    min-width: 100px; 
+    flex: 1 0 8%;
+    padding-right: 27px;
+    margin-right: 17px;
   }
 }
