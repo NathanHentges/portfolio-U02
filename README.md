@@ -10,7 +10,7 @@ It is important that it is responsive as well.
 
 ## Site link
 
-The link to the deployed application can be found **[https://nathanhentges.github.io/code-refactor/](https://nathanhentges.github.io/code-refactor/)**.
+The link to the deployed application can be found **[https://nathanhentges.github.io/portfolio-U02/](https://nathanhentges.github.io/portfolio-U02/)**.
 
 ## Website preview
 
