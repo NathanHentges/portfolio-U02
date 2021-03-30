@@ -6,7 +6,7 @@ This is my personal project portfolio.
 
 Here I display recent projects I am proud of.
 
-It is important that it is responsive as well.
+It contains information about me and important links.
 
 ## Site link
 
