@@ -184,18 +184,19 @@ main {
 
 #project2 {
   background-image: url("project2.png");
-  background-position-y: center;
 }
 
 #project3 {
-  background-image: url("#");
+  background-image: url("project3.png");
+  background-position-y: center;
 }
 
 #project4 {
-  background-image: url("#");
+  background-image: url("project4.png");
 }
 #project5 {
-  background-image: url("#");
+  background-image: url("project5.png");
+  background-position-y: center;
 }
 
 /* Contact */
@@ -216,7 +217,6 @@ footer {
 /* Changing things based on screen size */
 @media (max-width: 768px) {
   header {
-    filter: invert();
     transition: padding var(--transition-time);
     padding: 30px 20px;
   }
